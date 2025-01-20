@@ -22,6 +22,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	#self.visible = true 
 	velocity = Vector3.ZERO
 	
 	match state_machine.get_current_node():
